@@ -1,33 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-30T03:39:59-04:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/07/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-07-30T03:36:37-04:00</published><updated>2021-07-30T03:36:37-04:00</updated><id>/jekyll/update/2021/07/30/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/07/30/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-01T18:03:32-04:00</updated><id>/feed.xml</id><title type="html">Gbustarr Blog</title><subtitle>Sitio personal de Gbustarr. Se publican posts relacionados con pequeños tutoriales  sobre diversos temas.</subtitle><entry><title type="html">Como instalar Python y no morir en el intento</title><link href="/2021/07/31/phyton-instalacion.html" rel="alternate" type="text/html" title="Como instalar Python y no morir en el intento" /><published>2021-07-31T00:00:00-04:00</published><updated>2021-07-31T00:00:00-04:00</updated><id>/2021/07/31/phyton-instalacion</id><content type="html" xml:base="/2021/07/31/phyton-instalacion.html">&lt;h1 id=&quot;bienvenids&quot;&gt;Bienvenid@s&lt;/h1&gt;
+&lt;h2 id=&quot;python-101-descarga-e-instalación&quot;&gt;Python 101, Descarga e instalación.&lt;/h2&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;Sabemos que al comenzar a realizar cualquier cosa por primera vez puede ser confuso e incluso
+frustrante, motivo por el cual, cree esta pequeña guia sobre la instalación de python mediante pasos detallados para que al final puedas comenzar a escribir tus lineas de código lo mas rápido posible.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Sin mas preambulos, a comenzar!&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h3 id=&quot;requisitos-previos&quot;&gt;Requisitos previos&lt;/h3&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Esta guia esta enfocada principalmente para el sistema Windows pero tambien se describirán algunos pasos que puedan ser diferentes en otros sistemas distros de Linux como por ejemplo, en Ubuntu 20.04.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Para instalar Python, necesitas:&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/07/30/welcome-to-jekyll2.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-07-30T03:36:37-04:00</published><updated>2021-07-30T03:36:37-04:00</updated><id>/jekyll/update/2021/07/30/welcome-to-jekyll2</id><content type="html" xml:base="/jekyll/update/2021/07/30/welcome-to-jekyll2.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Computadora con sistema Windows (o Ubuntu).&lt;/li&gt;
+  &lt;li&gt;Conexion a internet (Recomendable).&lt;/li&gt;
+  &lt;li&gt;Espacio entre 200 a 300 Mb.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;h3 id=&quot;paso-0-descargar-python&quot;&gt;Paso 0: Descargar Python&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para descargar Python, te puedes dirigir a la pagina oficial de Python haciendo click &lt;a href=&quot;https://www.python.org/&quot; title=&quot;Sitio oficial de Python&quot;&gt;Aqui&lt;/a&gt; o buscarlo con tu buscador preferido. Como gustes, no problemo.&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/python/images/Python_Main_Page.png&quot; alt=&quot;Pagina principal de Python&quot; title=&quot;Pagina oficial de Python&quot; /&gt;
+&lt;em&gt;Figura 1 : Pagina principal de Python&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Al interior del sitio encontraras una pestaña llamada “Downloads”. Coloca el mouse sobre el y aparecerá un menu desplegable. Haz click en “Windows”. 
+&lt;img src=&quot;/assets/python/images/Python_download.png&quot; alt=&quot;Pagina principal de Python, Descargas&quot; title=&quot;Descargas&quot; /&gt;
+&lt;em&gt;Figura 2 : Menu desplegable&lt;/em&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Ya al interior de la nueva pagina, notarás que debajo de “Python Relases for Windows” hay 2 enlaces. Haz click en el que dice ‘Latest Python 3 Release’.
+&lt;img src=&quot;/assets/python/images/Python_download_page.png&quot; alt=&quot;Pagina descargas Windows&quot; title=&quot;Pagina de descargas de Python para Windows&quot; /&gt;
+&lt;em&gt;Figura 3 : Pagina de descargas de python para Windows&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Luego, baja hasta el final de la pagina hasta que encuentres un apartado llamado “Files” y selecciona el archivo “Windows installer”. Aqui debes decidir si utilizar la version para 32 o 64 bits.
+&lt;img src=&quot;/assets/python/images/Python_32_64_bits.png&quot; alt=&quot;32 o 64 Bits&quot; title=&quot;Descargar 32 o 64 bits&quot; /&gt;
+&lt;em&gt;Figura 4 : Tabla de descargas&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;¿32 o 64 bits?&lt;/strong&gt;
+Si no sabes que versión utilizar, despliega el menu de abajo.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Que version elegir&lt;/summary&gt;
+&lt;br /&gt;
+Las versiones 32 y 64 bits hacen referencia al tipo de arquitectura del procesador en que se basó la construccion del archivo. Es decir, la version de 32 bits sirve para computadoras de 32 bits (Tambien para 64 bits) y la version de 64 bits para computadoras de 64 bits (No sirve para 32 bits).
+&lt;br /&gt;
+&lt;br /&gt;
+Basicamente si tienes un computador de 64 bits, no tendrias porque preocuparte mucho, pero sacrificarias algunas caracteristicas al no utilizar la version correcta. Cosa que no queremos cierto?
+&lt;br /&gt;
+&lt;br /&gt;
+Para conocer la arquitectura de tu computadora debes:
+
+&lt;ul&gt;	
+	&lt;li&gt;Buscar &quot;Acerca de mi pc&quot; en el buscador de Windows e identificar en la informacion que te entrega que tipo de arquitectura es tu computadora&lt;/li&gt;
+	&lt;li&gt;Para Ubuntu, debes abrir una terminal (Ctrl+alt+t) y escribir 'lscpu' sin las comillas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+
+&lt;h3 id=&quot;paso-1-instalar-python&quot;&gt;Paso 1: Instalar Python&lt;/h3&gt;
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;p&gt;Ya que tenemos el archivo necesario para instalar Python, solo debemos iniciar el instalador que es bastante estandar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.python.org/es/3/_images/win_installer.png&quot; alt=&quot;Instalador Python&quot; title=&quot;Instalador Python&quot; /&gt;
+&lt;em&gt;Figura 5 : Instalador de Python, imagen de Python Docs&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Debes tener especial cuidado en habilitar la casilla ‘Add Python X.x to PATH’ (Las “X” puede cambiar según la versión que instales) que esta en la parte inferior una vez que inicias el instalador, en caso contrario, se te dificultará ejecutar Python por consola mas adelante cuando desarrolles mas proyectos.&lt;/p&gt;
+
+&lt;p&gt;Solo debes darle siguiente, siguiente, siguiente, sig… ya me entiendes.&lt;/p&gt;
+
+&lt;p&gt;y listo, ya tienes Python en su ultima versión (y PIP) instalado en tu computadora. Facil no?&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;PIP?&lt;/summary&gt;
+&lt;br /&gt;
+PIP (Package Installer for Python), es un gestor que te ayudará a instalar, actualizar y/o borrar paquetes desde una terminal. Este software se instala junto a Python y facilita mucho la administración de las librerias que necesites a medida que avanzas en cualquier proyecto.
+&lt;br /&gt;
+&lt;br /&gt;
+Que necesitas instalar una libreria que te permita manipular imagenes? Lo puedes instalar con PIP. O talvez una libreria que te permita utilizar sonido o video en tu codigo?, solo debes buscar una libreria que satisfaga tus necesidades y mediante PIP instalarlo.
+
+&lt;/details&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h4&gt;
+
+&lt;p&gt;Generalmente, Python ya viene instalado en Ubuntu. Puedes verificar su instalación al escribir:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;python3 –version&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;en un terminal (Ctrl+alt+t) y deberia salir algo como esto:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Python 3.8.10&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;comentarios-finales&quot;&gt;Comentarios finales&lt;/h2&gt;
+
+&lt;p&gt;Como se pudo observar, la instalación y habilitación de Python para escribir codigo en una computadora es bastante estandar y sin contratiempos.
+En los siguientes posts sobre Python abarcare sobre la creación de un pequeño programa escrito en Python y como ejecutarlo.&lt;/p&gt;
+
+&lt;p&gt;Nos vemos!&lt;/p&gt;</content><author><name></name></author><summary type="html">Bienvenid@s Python 101, Descarga e instalación.</summary></entry><entry><title type="html">Primerisimo primer post!</title><link href="/2021/07/30/primerisimo-primer-post.html" rel="alternate" type="text/html" title="Primerisimo primer post!" /><published>2021-07-30T00:00:00-04:00</published><updated>2021-07-30T00:00:00-04:00</updated><id>/2021/07/30/primerisimo-primer-post</id><content type="html" xml:base="/2021/07/30/primerisimo-primer-post.html">&lt;h1 id=&quot;bienvenids&quot;&gt;Bienvenid@s&lt;/h1&gt;
+
+&lt;p&gt;Como se puede observar en el título, este es el primer post que realizo en mi primer blog personal.
+Este es un momento muy especial para mi, y espero que los posts que vendrán a futuro les sea de ayuda tal 
+como me sirvirán a mi cuando los redacte!&lt;/p&gt;
+
+&lt;p&gt;Basicamente mi blog se tratará temas de computación, aunque no se extrañen si
+aparecen temas ajenos a este.&lt;/p&gt;
+
+&lt;p&gt;Saludos a todos!
+I hope you will like it!&lt;/p&gt;</content><author><name></name></author><summary type="html">Bienvenid@s</summary></entry></feed>
